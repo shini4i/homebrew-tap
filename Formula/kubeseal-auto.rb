@@ -5,6 +5,7 @@ class KubesealAuto < Formula
   sha256 "4483de331ab38a6fa956ff16e4eeba50ed37f5597054788acb977c4d6574e8b0"
   license "MIT"
 
+  depends_on "kubernetes-cli"
   depends_on "kubeseal"
   depends_on "yq"
 
