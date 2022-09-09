@@ -1,7 +1,21 @@
+<div align="center">
+
 # homebrew-tap
 
-## Description
 A collection of homebrew formulas for personal projects.
+
+
+<img src="https://raw.githubusercontent.com/shini4i/assets/main/src/homebrew-tap/homebrew.png" alt="Showcase">
+
+</div>
+
+## General Information
+To connect to this tap, you must have [Homebrew](https://brew.sh/) installed.
+
+Run the following command to add this tap to your homebrew installation:
+```bash
+brew tap shini4i/tap
+```
 
 ## Table of Contents
 <!-- project_table_start -->
