@@ -19,9 +19,10 @@ brew tap shini4i/tap
 
 ## Table of Contents
 <!-- project_table_start -->
-| Project                                                                 | Description                                                            | Install                             |
-| ----------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------- |
-| [kd](https://github.com/shini4i/kd)                                     | Simple script for kubernetes secrets decoding                          | `brew install kd`                   |
-| [kubeconfig-generator](https://github.com/shini4i/kubeconfig-generator) | Simple script for generating kubeconfig for a provided service account | `brew install kubeconfig-generator` |
-| [kubeseal-auto](https://github.com/shini4i/kubeseal-auto)               | An interactive wrapper for kubeseal binary                             | `brew install kubeseal-auto`        |
+| Project                                                                 | Description                                                                   | Install                             |
+|-------------------------------------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------|
+| [argo-compare](https://github.com/shini4i/argo-compare)                 | A tool for showing difference between Application in a different git branches | `brew install argo-compare`          |
+| [kd](https://github.com/shini4i/kd)                                     | Simple script for kubernetes secrets decoding                                 | `brew install kd`                   |
+| [kubeconfig-generator](https://github.com/shini4i/kubeconfig-generator) | Simple script for generating kubeconfig for a provided service account        | `brew install kubeconfig-generator` |
+| [kubeseal-auto](https://github.com/shini4i/kubeseal-auto)               | An interactive wrapper for kubeseal binary                                    | `brew install kubeseal-auto`        |
 <!-- project_table_end -->
