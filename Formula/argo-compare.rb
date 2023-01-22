@@ -5,21 +5,21 @@
 class ArgoCompare < Formula
   desc "A tool for showing difference between Application in a different git branches"
   homepage "https://github.com/shini4i/argo-compare"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/shini4i/argo-compare/releases/download/v0.1.5/argo-compare_0.1.5_Darwin_arm64.tar.gz"
-      sha256 "907851d847b33bb3d655e935b08e92099488b6568c694b1682b8707615248174"
+      url "https://github.com/shini4i/argo-compare/releases/download/v0.1.6/argo-compare_0.1.6_Darwin_arm64.tar.gz"
+      sha256 "842cd24fa3982c9136057eb446171e6e0a267c1f6b46e09d0c7814f71902782a"
 
       def install
         bin.install "argo-compare"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shini4i/argo-compare/releases/download/v0.1.5/argo-compare_0.1.5_Darwin_x86_64.tar.gz"
-      sha256 "1f6ed3bb7b4b47430ab33c4c526ef62ec1ddd70da318d9d60a62e0a5fb7cb2b7"
+      url "https://github.com/shini4i/argo-compare/releases/download/v0.1.6/argo-compare_0.1.6_Darwin_x86_64.tar.gz"
+      sha256 "bb27fe2430ec80f501a7cbb43d6cf750f4b44920ab252c9b6b147136fc7bca71"
 
       def install
         bin.install "argo-compare"
@@ -29,16 +29,16 @@ class ArgoCompare < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/shini4i/argo-compare/releases/download/v0.1.5/argo-compare_0.1.5_Linux_arm64.tar.gz"
-      sha256 "01e63ab10e13ed89a1a3304e96caeea582ac934f3dc7564bc6fcecab95539aa8"
+      url "https://github.com/shini4i/argo-compare/releases/download/v0.1.6/argo-compare_0.1.6_Linux_arm64.tar.gz"
+      sha256 "9d424049741ec3a5b4cf16ccc4075351c7c060fef004722c801eccc3c29a792a"
 
       def install
         bin.install "argo-compare"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shini4i/argo-compare/releases/download/v0.1.5/argo-compare_0.1.5_Linux_x86_64.tar.gz"
-      sha256 "718ae4f4a79e94009205b95b512e776bd83bc90105aca2bbb3feb1483fae23ef"
+      url "https://github.com/shini4i/argo-compare/releases/download/v0.1.6/argo-compare_0.1.6_Linux_x86_64.tar.gz"
+      sha256 "80d62b3e174f49d011df66d48123048d6344b5f89ef6b57149f967392d56640b"
 
       def install
         bin.install "argo-compare"
