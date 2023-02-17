@@ -5,8 +5,8 @@
 class Kd < Formula
   desc "Simple script for kubernetes secrets decoding"
   homepage "https://github.com/shini4i/kd"
-  url "https://github.com/shini4i/kd/archive/v0.1.2.tar.gz"
-  sha256 "5a89df8921278b9fc2cbe4d602a5416c506613eec5b9b3ac13d785dfc6b14e1c"
+  url "https://github.com/shini4i/kd/archive/v0.1.3.tar.gz"
+  sha256 "0b992ae1e96ffb9a2ebcb0dd75c1bb3943a503006757517a43a322934fd55feb"
   license "MIT"
 
   depends_on "kubernetes-cli"
