@@ -5,8 +5,8 @@
 class KubeconfigGenerator < Formula
   desc "Simple script for generating kubeconfig for a provided service account"
   homepage "https://github.com/shini4i/kubeconfig-generator"
-  url "https://github.com/shini4i/kubeconfig-generator/archive/v0.1.3.tar.gz"
-  sha256 "736dad37c927e8bbefd7111b882a813b5c260aeebd1f4b6f04e29fb7db05d7f6"
+  url "https://github.com/shini4i/kubeconfig-generator/archive/v0.1.4.tar.gz"
+  sha256 "f676ccbe50dfdd11c6fbbb67aa3903b312ee42857cc2d45bbd46defdb6f1d81a"
   license "MIT"
 
   depends_on "kubernetes-cli"
