@@ -22,6 +22,6 @@ brew tap shini4i/tap
 | Project                                                                 | Description                                                                                            | Install                             |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------- |
 | [argo-compare](https://github.com/shini4i/argo-compare)                 | A comparison tool for displaying the differences between ArgoCD Applications in different Git branches | `brew install argo-compare`         |
-| [kd](https://github.com/shini4i/kd)                                     | Simple script for kubernetes secrets decoding                                                          | `brew install kd`                   |
+| [kd](https://github.com/shini4i/kd)                                     | Bash script that makes it easy to view the contents of secrets stored in a kub                         | `brew install kd`                   |
 | [kubeconfig-generator](https://github.com/shini4i/kubeconfig-generator) | Simple script for generating kubeconfig for a provided service account                                 | `brew install kubeconfig-generator` |
 <!-- project_table_end -->
