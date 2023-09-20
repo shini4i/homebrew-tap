@@ -5,21 +5,21 @@
 class PreCommitMakefile < Formula
   desc "A tool that parses Makefile targets and automatically updates the project's README with a list of available targets and their descriptions"
   homepage "https://github.com/shini4i/argo-compare"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/shini4i/pre-commit-makefile/releases/download/v0.1.0/pre-commit-makefile_0.1.0_darwin_arm64.tar.gz"
-      sha256 "b6329a6b11f39ddedfcaffb748d15244fa091b22b806049757637c42041d825b"
+      url "https://github.com/shini4i/pre-commit-makefile/releases/download/v0.1.1/pre-commit-makefile_0.1.1_darwin_arm64.tar.gz"
+      sha256 "00d22ee84adc25c2141170e837495754e8ac5aa347130a7c6a7b094a5041f781"
 
       def install
         bin.install "pre-commit-makefile"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shini4i/pre-commit-makefile/releases/download/v0.1.0/pre-commit-makefile_0.1.0_darwin_amd64.tar.gz"
-      sha256 "a640f1b4000ac53def40c4b5d8aff310961180858e40e1771ee9363a0975b923"
+      url "https://github.com/shini4i/pre-commit-makefile/releases/download/v0.1.1/pre-commit-makefile_0.1.1_darwin_amd64.tar.gz"
+      sha256 "c0867504ca83bcc71ad113ba56eb042bc483324d2342dd4fe555b7c47662f269"
 
       def install
         bin.install "pre-commit-makefile"
@@ -29,16 +29,16 @@ class PreCommitMakefile < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/shini4i/pre-commit-makefile/releases/download/v0.1.0/pre-commit-makefile_0.1.0_linux_amd64.tar.gz"
-      sha256 "d0b8340dda5669f628e667fa128e8a53575abefd6503f3cffb043e9f6e11099a"
+      url "https://github.com/shini4i/pre-commit-makefile/releases/download/v0.1.1/pre-commit-makefile_0.1.1_linux_amd64.tar.gz"
+      sha256 "598c6f0405c80f3e0614f8d9e3159a37803f36c338240db4df0477ff21a3ac64"
 
       def install
         bin.install "pre-commit-makefile"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/shini4i/pre-commit-makefile/releases/download/v0.1.0/pre-commit-makefile_0.1.0_linux_arm64.tar.gz"
-      sha256 "f5dc5e758e509b76398f104449f6ca2aedf78d8264246f1e126f80ac6de4c4c5"
+      url "https://github.com/shini4i/pre-commit-makefile/releases/download/v0.1.1/pre-commit-makefile_0.1.1_linux_arm64.tar.gz"
+      sha256 "a86709295c4b16616978d9ab9056fed8a5b2eec64793badad669a999608066b7"
 
       def install
         bin.install "pre-commit-makefile"
