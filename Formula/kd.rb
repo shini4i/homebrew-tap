@@ -5,7 +5,7 @@
 class Kd < Formula
   desc "Bash script that makes it easy to view the contents of secrets stored in a kub"
   homepage "https://github.com/shini4i/kd"
-  url "https://github.com/shini4i/kd/archive/v0.1.4.tar.gz"
+  url "https://github.com/shini4i/kd/archive/refs/tags/v0.1.4.tar.gz"
   sha256 "e667ad0e67eeaab234afe1f75063d67654d80998efbfd57c0220d29b7355dfd8"
   license "MIT"
 
